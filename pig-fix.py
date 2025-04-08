@@ -1,8 +1,8 @@
 import random
 
 def roll():
-    """Simulate rolling a dice and return the value."""
-    return random.randint(1, 6)
+    dice_num = rand.randint(1,6)
+    return dice_num
 
 while True:
     players = input("Enter the number of players (2-4): ")
